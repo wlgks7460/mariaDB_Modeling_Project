@@ -50,3 +50,26 @@ INSERT INTO Members(apartment_id, email, password, nickname, phone_number, id_ca
     CALL createGeneralPost('natalie', '푸르지오', '밤에 그만좀 떠들어요', '시끄러워서 잠을 못자겠어요', '조심해요');
 
 -- 6. 공지사항
+
+    INSERT INTO Notice( member_id, title, content) VALUES( 6 ,'first notice', 'hello');
+    INSERT INTO Notice( member_id, title, content) VALUES( 6 ,'second notice', 'notice ….');
+
+-- 7. 댓글 작성, 댓글 좋아요
+    INSERT INTO comment(comment_id,member_id,post_id, content) VALUES(1,1,1,'good');
+    INSERT INTO Comment_Like(comment_like_id, comment_id, member_id, is_click) VALUES(1,1,2,'Y');
+    UPDATE Comment SET likes_count = likes_count+1  where comment_id =1;
+
+    INSERT INTO Comment(comment_id,member_id,post_id, parent_id, content) VALUES(2,2,1,1,'very good');
+    INSERT INTO Comment_Like(comment_like_id, comment_id, member_id, is_click) VALUES(2,2,1,'Y');
+    UPDATE Comment SET likes_count = likes_count+1  where comment_id =2;
+
+-- 8. 게시글 좋아요.
+    INSERT INTO PostLike(post_like_id,member_id,post_id,is_click) VALUES(1,1,1,'Y');
+    UPDATE Post SET likes = likes+1  where post_id =1;
+
+-- 9. 채팅 
+    INSERT INTO Chat_Room(chat_room_id) VALUES(2);
+    UPDATE Delivery_Details SET chat_room_id = '2' WHERE delivery_id =1;
+    INSERT INTO Delivery_Message (delivery_details_id, content) VALUES(1, 'HI');
+    INSERT INTO Delivery_Message (delivery_details_id, content) VALUES(2, 'HI');
+
