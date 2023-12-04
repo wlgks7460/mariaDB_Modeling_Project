@@ -18,6 +18,9 @@
 <br>
 
 # 🔎 WBS
+<center>
+    <img src="./images/wbs.png" />
+</center>
 
 # 💡 프로젝트 배경
 
