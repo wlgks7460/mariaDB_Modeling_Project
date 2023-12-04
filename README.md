@@ -80,33 +80,33 @@
 # 핵심 쿼리
 <details>
     <summary>배달해요 게시글 작성 및 조회</summary>
-    <img src="./queries_result/1.png" />
+    <img src="./queries_result/핵심쿼리결과/1.png" />
 </details>
 <details>
     <summary>타 아파트 거주민이 게시글 작성 시도 시 에러</summary>
-    <img src="./queries_result/2.png" />
+    <img src="./queries_result/핵심쿼리결과/2.png" />
 </details>
 <details>
     <summary>일반 게시판(자유게시판, 나눔해요, 조심해요) 작성 시 카테고리 자동 분류</summary>
-    <img src="./queries_result/3.png" />
+    <img src="./queries_result/핵심쿼리결과/3.png" />
 </details>
 <details>
     <summary>유저가 특정 배달해요 게시글에 참여하기 클릭 시 현재 참여 인원 수 1 증가</summary>
-    <img src="./queries_result/4.png" />
+    <img src="./queries_result/핵심쿼리결과/4.png" />
 </details>
 <details>
     <summary>모집 인원이 가득 찬 배달해요 게시글에 참여하기 클릭 시 에러</summary>
-    <img src="./queries_result/5.png" />
+    <img src="./queries_result/핵심쿼리결과/5.png" />
 </details>
 <details>
     <summary>모집 인원 달성 시 채팅방 자동 개설</summary>
-    <img src="./queries_result/6.png" />
+    <img src="./queries_result/핵심쿼리결과/6.png" />
 </details>
 <details>
     <summary>모든 아파트 거주민들이 작성한 게시글 조회</summary>
-    <img src="./queries_result/7.png" />
+    <img src="./queries_result/핵심쿼리결과/7.png" />
 </details>
 <details>
     <summary>배달해요 특정 게시글의 참여 중인 유저들의 닉네임 조회</summary>
-    <img src="./queries_result/8.png" />
+    <img src="./queries_result/핵심쿼리결과/8.png" />
 </details>
